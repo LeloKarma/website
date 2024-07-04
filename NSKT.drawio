@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:55:56.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tL5Thv3U5uQxQbXk2Gyt" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T14:28:05.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Xi6NevQPQZ8F1Sef0Nk3" version="24.6.4" type="github">
   <diagram name="Classdigram" id="vn9K8ugdKK19ClH5_ukw">
     <mxGraphModel dx="1034" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,6 +272,9 @@
         </mxCell>
         <mxCell id="R2N7xP3j_3x28MJ2ADYX-95" value="belong to" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="675" y="348" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oo-MzYF578G3xmNMJgSp-1" value="is a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="358" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
