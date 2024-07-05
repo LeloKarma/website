@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T14:28:05.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Xi6NevQPQZ8F1Sef0Nk3" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T17:25:52.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="li2NwEYA2UuP4lJTg5Dc" version="24.6.4" type="github">
   <diagram name="Classdigram" id="vn9K8ugdKK19ClH5_ukw">
-    <mxGraphModel dx="1034" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1379" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,8 +273,22 @@
         <mxCell id="R2N7xP3j_3x28MJ2ADYX-95" value="belong to" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="675" y="348" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oo-MzYF578G3xmNMJgSp-1" value="is a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oo-MzYF578G3xmNMJgSp-1" value="is a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="840" y="358" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-MBzmFut7ocBN49-wd0r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.501;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R2N7xP3j_3x28MJ2ADYX-9" target="R2N7xP3j_3x28MJ2ADYX-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="230" />
+              <mxPoint x="140" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-MBzmFut7ocBN49-wd0r-2" value="1,,,1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-MBzmFut7ocBN49-wd0r-3" value="0...1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="298" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
