@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T07:13:14.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_pVLBFU5NdMFBJ1ykfxz" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-11T16:45:23.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7oOEzOpXZzt95FcaaZhx" version="24.6.4" type="github" pages="2">
   <diagram name="Classdigram" id="vn9K8ugdKK19ClH5_ukw">
     <mxGraphModel dx="1034" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -566,10 +566,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J2KlvTZGYSoRb2E-INv4" name="Page-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dwWbgBhMjI5SHQ7y2aAs-1" value="Data inputer" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwWbgBhMjI5SHQ7y2aAs-2" value="Judiciary" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwWbgBhMjI5SHQ7y2aAs-3" value="ActorName" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="670" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
