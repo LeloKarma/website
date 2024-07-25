@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T20:58:40.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7FLoYfEp-ua41Xr7NOFL" version="24.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-25T22:27:02.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="HOpsI9COB5wL02PME-w0" version="24.7.2" type="github" pages="2">
   <diagram name="classdiagram" id="asNL-EBBEeD5k-Nzu0Zw">
     <mxGraphModel dx="1034" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3LF1SRSGRzl-hspdko9j-5" value="Flashcards&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="380" width="160" height="86" as="geometry" />
+          <mxGeometry x="190" y="380" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="3LF1SRSGRzl-hspdko9j-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3LF1SRSGRzl-hspdko9j-5" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="3LF1SRSGRzl-hspdko9j-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3LF1SRSGRzl-hspdko9j-5" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3uo8lUfGvQ6s-oUoCpjn-1" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3LF1SRSGRzl-hspdko9j-5">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3LF1SRSGRzl-hspdko9j-9" value="Student&#xa;  - studentID: Integer&#xa;  - username: String&#xa;  - email: String&#xa;  - password: String&#xa;  - profilePicture: String&#xa;  - studyInterests: List&lt;String&gt;&#xa;  - level: String (e.g., high school, undergraduate)&#xa;  - school: String&#xa;  - createdAt: DateTime&#xa;  - updatedAt: DateTime&#xa;  + register()&#xa;  + login()&#xa;  + recoverPassword()&#xa;  + setStudyInterests()&#xa;  + updateSkills()" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="460" y="40" width="290" height="250" as="geometry" />
