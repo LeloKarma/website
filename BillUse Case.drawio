@@ -31,6 +31,7 @@
         <mxCell id="w1HYEvNTsBBEYmjH7NyR-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="w1HYEvNTsBBEYmjH7NyR-6">
           <mxGeometry x="5" y="50" width="10" height="80" as="geometry" />
         </mxCell>
+
         <mxCell id="w1HYEvNTsBBEYmjH7NyR-14" value="recharge initiated" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="w1HYEvNTsBBEYmjH7NyR-6" target="w1HYEvNTsBBEYmjH7NyR-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="179.25" y="102" as="sourcePoint" />
