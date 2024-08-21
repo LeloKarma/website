@@ -1,9 +1,118 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="YR7d85IQbNTgWjL0GW4P">
-    <mxGraphModel>
+    <mxGraphModel dx="2427" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-4" target="AL1td9I8SfrqsA7aqYTp-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="410" />
+              <mxPoint x="280" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-4" value="Proposal submitted" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-5" target="AL1td9I8SfrqsA7aqYTp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-5" value="(Initial State)Draft" style="shape=umlState;rounded=1;verticalAlign=middle;align=center;absoluteArcSize=1;arcSize=10;umlStateConnection=connPointRefEntry;boundedLbl=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-6" value="Entry1" style="text;verticalAlign=middle;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AL1td9I8SfrqsA7aqYTp-5">
+          <mxGeometry x="-45.71428571428571" y="40" width="57.14285714285714" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-9" target="AL1td9I8SfrqsA7aqYTp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-9" value="Published" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-12" value="accepted" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="550" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-16" value="User creates offer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="188" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-17" value="User publishes offer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="328" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-18" value="submits proposal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="458" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-19" value="Validation Pending" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-20" target="AL1td9I8SfrqsA7aqYTp-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-20" value="In Progress" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="770" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-38" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-22" value="User accepts propsal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="608" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-19" target="AL1td9I8SfrqsA7aqYTp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-24" value="Validates offer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="718" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-25" target="AL1td9I8SfrqsA7aqYTp-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-25" value="Cancelled" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="25" y="900" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="AL1td9I8SfrqsA7aqYTp-26" target="AL1td9I8SfrqsA7aqYTp-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-26" value="Completed" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="890" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-28" value="Delivery is completed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="818" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-31" value="Final State" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1020" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-33" value="Offer closed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="988" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-35" value="Offer closed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="978" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-36" value="Offer is cancelled" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="818" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-38" value="Submits proposal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="608" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
