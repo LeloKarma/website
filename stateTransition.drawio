@@ -34,7 +34,7 @@
         <mxCell id="AL1td9I8SfrqsA7aqYTp-17" value="fournisseur: publishes offer( /api/offers(create))" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-35" y="328" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AL1td9I8SfrqsA7aqYTp-18" value="demandeur: accepts offer( /api/offers/{uuid}/accept)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="AL1td9I8SfrqsA7aqYTp-18" value="demandeur: accepts offer( /api/offers/{uuid}/acce&lt;span style=&quot;background-color: initial;&quot;&gt;pt)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-210" y="458" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AL1td9I8SfrqsA7aqYTp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AL1td9I8SfrqsA7aqYTp-20" edge="1">
