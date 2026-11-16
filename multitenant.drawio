@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="rO1-_7khKJkiI2xKZlR_">
+    <mxGraphModel dx="2233" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H27Spwpkllm4YEOytBam-3" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H27Spwpkllm4YEOytBam-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Docker Access Application" vertex="1">
+          <mxGeometry height="50" width="220" x="-130" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-5" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H27Spwpkllm4YEOytBam-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="https://login.microsoftonline.com/organizations" vertex="1">
+          <mxGeometry height="50" width="270" x="144" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-9" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;curveGeometry=1;" target="H27Spwpkllm4YEOytBam-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="455" />
+              <mxPoint x="740" y="366.3" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-10" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;" target="H27Spwpkllm4YEOytBam-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-11" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;" target="H27Spwpkllm4YEOytBam-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="455" />
+              <mxPoint x="740" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-4" parent="1" style="whiteSpace=wrap;html=1;" value="Organization Discovery" vertex="1">
+          <mxGeometry height="50" width="210" x="480" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-13" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;" target="H27Spwpkllm4YEOytBam-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="377.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-6" parent="1" style="whiteSpace=wrap;html=1;" value="worker Tenant" vertex="1">
+          <mxGeometry height="45" width="120" x="870" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-14" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;" target="H27Spwpkllm4YEOytBam-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-7" parent="1" style="whiteSpace=wrap;html=1;" value="parent Tenant" vertex="1">
+          <mxGeometry height="45" width="120" x="860" y="458.75" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-8" parent="1" style="whiteSpace=wrap;html=1;" value="external Tenant" vertex="1">
+          <mxGeometry height="50" width="120" x="870" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-17" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H27Spwpkllm4YEOytBam-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Microsoft Entra Authentication" vertex="1">
+          <mxGeometry height="52.5" width="129" x="1121" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-15" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.158;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;curveGeometry=1;" target="H27Spwpkllm4YEOytBam-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-19" edge="1" parent="1" source="H27Spwpkllm4YEOytBam-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H27Spwpkllm4YEOytBam-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="QR Code Authentication Option Available" vertex="1">
+          <mxGeometry height="45" width="150" x="1320" y="458.75" as="geometry" />
+        </mxCell>
+        <mxCell id="H27Spwpkllm4YEOytBam-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Application" vertex="1">
+          <mxGeometry height="45" width="150" x="1550" y="458.75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
