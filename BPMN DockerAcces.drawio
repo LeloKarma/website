@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Zm52QXUY9f-asmfTqHi_">
+    <mxGraphModel dx="2424" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U0IOi1WAge7gxE32QwPR-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="Pool" vertex="1">
+          <mxGeometry height="1050" width="3450" x="170" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-6" parent="U0IOi1WAge7gxE32QwPR-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Docker" vertex="1">
+          <mxGeometry height="220" width="3450" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-24" parent="U0IOi1WAge7gxE32QwPR-6" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px; color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px; color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px; color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); line-height: 19px; color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#9e7e0c&quot;&gt;Scan le QR code &lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="290" x="2240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-31" parent="U0IOi1WAge7gxE32QwPR-6" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Saisie du PIN Temporaire&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="3230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-2" parent="U0IOi1WAge7gxE32QwPR-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Miscrosoft Entra ID" vertex="1">
+          <mxGeometry height="180" width="3450" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-18" parent="U0IOi1WAge7gxE32QwPR-2" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Enregistrement de la Méthode &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;QR Authentication&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="290" x="1560" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-29" edge="1" parent="U0IOi1WAge7gxE32QwPR-2" source="U0IOi1WAge7gxE32QwPR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-26" parent="U0IOi1WAge7gxE32QwPR-2" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="QR code Validate?" vertex="1">
+          <mxGeometry height="100" width="130" x="2710" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-28" parent="U0IOi1WAge7gxE32QwPR-2" style="whiteSpace=wrap;html=1;" value="Demande le PIN par defaut&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="3018" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-30" parent="U0IOi1WAge7gxE32QwPR-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="oui" vertex="1">
+          <mxGeometry height="30" width="60" x="2890" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-3" parent="U0IOi1WAge7gxE32QwPR-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Microsoft Graph" vertex="1">
+          <mxGeometry height="240" width="3450" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-16" parent="U0IOi1WAge7gxE32QwPR-3" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Provisionnement de la Méthode &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;QR Authentication&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="290" x="1210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-4" parent="U0IOi1WAge7gxE32QwPR-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="DockerAccess" vertex="1">
+          <mxGeometry height="170" width="3450" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-15" edge="1" parent="U0IOi1WAge7gxE32QwPR-4" source="U0IOi1WAge7gxE32QwPR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-12" parent="U0IOi1WAge7gxE32QwPR-4" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Génération du PIN à 8 chiffres&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="590" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-14" parent="U0IOi1WAge7gxE32QwPR-4" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Appel Microsoft Graph&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="910" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-20" parent="U0IOi1WAge7gxE32QwPR-4" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Affichage du QR Code + Pin par defaut&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="290" x="1910" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-13" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-5" parent="U0IOi1WAge7gxE32QwPR-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Superviseur" vertex="1">
+          <mxGeometry height="220" width="3450" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-11" edge="1" parent="U0IOi1WAge7gxE32QwPR-5" source="U0IOi1WAge7gxE32QwPR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-7" parent="U0IOi1WAge7gxE32QwPR-5" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Sélection du Docker&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="156" x="137" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-10" edge="1" parent="U0IOi1WAge7gxE32QwPR-5" source="U0IOi1WAge7gxE32QwPR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-8" parent="U0IOi1WAge7gxE32QwPR-5" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="50" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-9" parent="U0IOi1WAge7gxE32QwPR-5" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Demande de QR Code&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="180" x="350" y="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-22" parent="U0IOi1WAge7gxE32QwPR-5" style="html=1;whiteSpace=wrap;" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Réception du QR Code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;PIN Temporaire&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(170, 133, 0);&quot;&gt;Validité 10 Heures&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="290" x="1910" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-17" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-19" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-21" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-23" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-25" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-27" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0IOi1WAge7gxE32QwPR-32" edge="1" parent="U0IOi1WAge7gxE32QwPR-1" source="U0IOi1WAge7gxE32QwPR-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="U0IOi1WAge7gxE32QwPR-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
